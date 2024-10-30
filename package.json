@@ -1,4 +1,15 @@
 {
+  "name": "ts-node-js",
+  "description": "express routing-controllers reflect-metadata class-transformer class-validator cors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r tsconfig-paths/register ./dist/main.js",
+    "dev": "nodemon",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
@@ -14,16 +25,5 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.6.3"
-  },
-  "name": "ts-node-js",
-  "description": "express routing-controllers reflect-metadata class-transformer class-validator cors",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node -r tsconfig-paths/register ./dist/main.js",
-    "dev": "nodemon",
-    "build": "tsc -p tsconfig.json"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
